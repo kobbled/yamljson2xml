@@ -1,19 +1,28 @@
-#yamljson2xml
+# yamljson2xml
+
 simple tool for converting yaml or json files into xml files.
 
-##install
+## install
+
+install dependencies
 ```
 git clone https://github.com/kobbled/dicttoxml
 cd dicttoxml
 python setup.py install
 ```
+clone package to local machine
+```
+git clone https://github.com/kobbled/yamljson2xml
+```
+add yamljson2xml to path (currently only for windows)
 
-add yamljson2xml to path
+## usage
 
-##usage
 convert json to xml
 ```
 yamljson2xml file.json
+//or
+python yamljson2xml.py "file.json"
 ```
 
 convert yaml to xml
@@ -31,5 +40,7 @@ use list tag type as attribute (see doc for dicttoxml)
 yamljson2xml file.yml file.xml -t
 ``` 
 
-##todo
-write tests to make sure dicttoxml is working properly
+## todo
+
+ - write tests to make sure dicttoxml is working properly
+ - write bash program to run in linux terminal
