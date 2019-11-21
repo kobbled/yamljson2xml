@@ -1,0 +1,11 @@
+---
+# <- yaml supports comments, json does not
+# did you know you can embed json in yaml?
+# try uncommenting the next line
+# { foo: 'bar' }
+
+json:
+  - rigid
+  - - nested1
+    - nested2
+  - better for data interchange

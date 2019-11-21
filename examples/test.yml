@@ -1,0 +1,31 @@
+---
+# <- yaml supports comments, json does not
+# did you know you can embed json in yaml?
+# try uncommenting the next line
+# { foo: 'bar' }
+
+json:
+  - rigid
+  - better for data interchange
+yaml:
+  - slim and flexible
+  - better for configuration
+attr:
+  "@key": value
+  "#value": "some text"
+object:
+  key: value
+  array:
+    - null_value:
+    - boolean: true
+    - integer: 1
+    - "#text": "some text"
+paragraph: >
+   Blank lines denote
+
+   paragraph breaks
+content: |-
+   Or we
+   can auto
+   convert line breaks
+   to save space
