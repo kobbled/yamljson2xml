@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<root>
+	<json>
+		<row>rigid</row>
+		<row>
+			<item>nested1</item>
+			<item>nested2</item>
+		</row>
+		<row>better for data interchange</row>
+	</json>
+</root>

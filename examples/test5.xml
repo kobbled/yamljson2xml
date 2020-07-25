@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<root>
+	<row>
+		<item>1</item>
+		<item>Johnson, Smith, and Jones Co.</item>
+		<item>345.33</item>
+	</row>
+	<row>
+		<item>99</item>
+		<item>Acme Food Inc.</item>
+		<item>2993.55</item>
+	</row>
+</root>

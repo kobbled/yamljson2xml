@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<root>
+	<json>rigid</json>
+	<json>better for data interchange</json>
+	<yaml>slim and flexible</yaml>
+	<yaml>better for configuration</yaml>
+	<attr key="value">some text</attr>
+	<object color="blue" key="value">
+		<array id="ns1">
+			<null_value/>
+		</array>
+		<array id="ns2">text in attr</array>
+		<array id="ns3">
+			<integer>1</integer>
+		</array>
+	</object>
+	<paragraph>Blank lines denote
+paragraph breaks
+</paragraph>
+	<content>Or we
+can auto
+convert line breaks
+to save space</content>
+</root>
