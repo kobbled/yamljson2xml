@@ -2,7 +2,7 @@
 import sys, re, types
 import yaml, json
 from xml.dom.minidom import parseString
-import dicttoxml
+import convertxml
 
 def main():
     #load args
@@ -24,14 +24,14 @@ def main():
             #load yaml data into dictionary type
             data = yaml.load(f, Loader=yaml.FullLoader)
             #convert json to xml
-            dxml = dicttoxml.dicttoxml(data, attr_type=attr_type)
+            dxml = convertxml.dicttoxml(data, attr_type=attr_type)
         if f.name.lower().endswith('.json'):
             #read json file
             djson = f.read()
             # load json to dictionary
             obj = json.loads(djson)
             #convert json to xml
-            dxml = dicttoxml.dicttoxml(obj, attr_type=attr_type)
+            dxml = convertxml.dicttoxml(obj, attr_type=attr_type)
     
     #prettyfy xml
     dxml = parseString(dxml).toprettyxml()

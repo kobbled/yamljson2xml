@@ -4,17 +4,20 @@ simple tool for converting yaml or json files into xml files.
 
 ## install
 
-install dependencies
-```
-git clone https://github.com/kobbled/dicttoxml
-cd dicttoxml
-python setup.py install
-```
 clone package to local machine
 ```
 git clone https://github.com/kobbled/yamljson2xml
 ```
-add yamljson2xml to path (currently only for windows)
+install package
+```
+cd yamljson2xml
+python setup.py install
+```
+add yamljson2xml/src to path (currently only for windows)
+```
+set PATH=%PATH%;\path\to\yamljson2xml\src
+```
+
 
 ## usage
 
