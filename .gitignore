@@ -1,2 +1,7 @@
 *.code-workspace
 build/
+.vscode/
+*.egg
+*.egg-info/
+*/__pycache__/
+*.pyc
