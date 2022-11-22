@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<root>
+	<mapping>
+		<sea>green</sea>
+		<sky>blue</sky>
+	</mapping>
+	<sequence>one</sequence>
+	<sequence>two</sequence>
+</root>

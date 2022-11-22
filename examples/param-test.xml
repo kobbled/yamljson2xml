@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<root>
+	<powders>
+		<inconel625 feeder="2" lpm="5" rate="0.97" rpm="2.4" type="Inconel 625"/>
+	</powders>
+	<param id="5" lens="3" pitch="0.375" power="4000" speed="6" wps="34">
+		<powder feeder="2" lpm="5" rate="0.97" rpm="2.4" type="Inconel 625"/>
+		<layer_height>
+			<set>0.05</set>
+			<actual>0.06</actual>
+		</layer_height>
+		<layer_height>
+			<set>0.05</set>
+			<actual>0.048</actual>
+		</layer_height>
+		<layer_height>
+			<set>0.05</set>
+			<actual>0.053</actual>
+		</layer_height>
+	</param>
+	<param id="6" lens="3" pitch="0.375" power="4000" speed="8" wps="34">
+		<powder feeder="2" lpm="5" rate="0.97" rpm="2.4" type="Inconel 625"/>
+		<layer_height>
+			<set>0.04</set>
+			<actual>0.051</actual>
+		</layer_height>
+		<layer_height>
+			<set>0.04</set>
+			<actual>0.034</actual>
+		</layer_height>
+		<layer_height>
+			<set>0.04</set>
+			<actual>0.042</actual>
+		</layer_height>
+	</param>
+</root>
