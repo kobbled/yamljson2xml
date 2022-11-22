@@ -1,9 +1,9 @@
 <?xml version="1.0" ?>
 <root>
-	<mapping>
-		<sea>green</sea>
-		<sky>blue</sky>
-	</mapping>
 	<sequence>one</sequence>
 	<sequence>two</sequence>
+	<mapping>
+		<sky>blue</sky>
+		<sea>green</sea>
+	</mapping>
 </root>
