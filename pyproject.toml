@@ -1,0 +1,20 @@
+[project]
+name = "yamljson2xml"
+version = "0.0.1"
+description = "Converts json or yaml files to xml."
+authors = [
+    {name = "Matt Dewar", email="mattpdewar@gmail.com"}
+]
+license = {file = "LICENSE.txt"}
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+repository = "https://github.com/kobbled/yamljson2xml"
+
+[tool.poetry]
+packages = [
+    { include = "yamljson2xml", from = "src" },
+]
