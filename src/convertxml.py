@@ -99,7 +99,7 @@ def get_xml_type(val):
         return 'null'
     if isinstance(val, dict):
         return 'dict'
-    if isinstance(val, collections.Iterable):
+    if isinstance(val, collections.abc.Iterable):
         return 'list'
     return type(val).__name__
 
@@ -228,7 +228,7 @@ def convert(obj, ids, attr_type, item_func, cdata, parent='root'):
     if isinstance(obj, dict):
         return convert_dict(obj, ids, parent, attr_type, item_func, cdata)
         
-    if isinstance(obj, collections.Iterable):
+    if isinstance(obj, collections.abc.Iterable):
         return convert_list(obj, ids, parent, attr_type, item_func, cdata)
         
     raise TypeError('Unsupported data type: %s (%s)' % (obj, type(obj).__name__))
@@ -286,7 +286,7 @@ def convert_dict(obj, ids, parent, attr_type, item_func, cdata):
                     )
                 )
 
-        elif isinstance(val, collections.Iterable):
+        elif isinstance(val, collections.abc.Iterable):
             nested = isnested(val)
 
             if not attr_type and not nested:
@@ -383,7 +383,7 @@ def convert_list(items, ids, parent, attr_type, item_func, cdata):
                         )
                     )
 
-        elif isinstance(item, collections.Iterable):
+        elif isinstance(item, collections.abc.Iterable):
             if (not attr_type and parent != root_name) and not nested:
                 addline('%s' % (
                     convert_list(item, ids, item_name, attr_type, item_func, cdata)
