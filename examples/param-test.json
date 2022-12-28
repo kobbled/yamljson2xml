@@ -1,0 +1,71 @@
+{
+  "powders": {
+    "inconel625": {
+      "@type": "Inconel 625",
+      "@feeder": 2,
+      "@rpm": 2.4,
+      "@lpm": 5,
+      "@rate": 0.97
+    }
+  },
+  "param": [
+    {
+      "@id": 5,
+      "@wps": 34,
+      "@power": 4000,
+      "@speed": 6,
+      "@pitch": 0.375,
+      "@lens": 3,
+      "powder": {
+        "@type": "Inconel 625",
+        "@feeder": 2,
+        "@rpm": 2.4,
+        "@lpm": 5,
+        "@rate": 0.97
+      },
+      "layer_height": [
+        {
+          "set": 0.05,
+          "actual": 0.06
+        },
+        {
+          "set": 0.05,
+          "actual": 0.048
+        },
+        {
+          "set": 0.05,
+          "actual": 0.053
+        }
+      ]
+    },
+    {
+      "@id": 6,
+      "@wps": 34,
+      "@power": 4000,
+      "@speed": 8,
+      "@pitch": 0.375,
+      "@lens": 3,
+      "powder": {
+        "@type": "Inconel 625",
+        "@feeder": 2,
+        "@rpm": 2.4,
+        "@lpm": 5,
+        "@rate": 0.97
+      },
+      "layer_height": [
+        {
+          "set": 0.04,
+          "actual": 0.051
+        },
+        {
+          "set": 0.04,
+          "actual": 0.034
+        },
+        {
+          "set": 0.04,
+          "actual": 0.042
+        }
+      ]
+    }
+  ]
+}

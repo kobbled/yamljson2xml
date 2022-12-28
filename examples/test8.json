@@ -1,0 +1,39 @@
+{
+  "positions": [
+    {
+      "id": 1,
+      "mask": [
+        {
+          "group": 1,
+          "uframe": 5,
+          "utool": 2,
+          "config": null,
+          "flip": false,
+          "up": true,
+          "top": true,
+          "turn_counts": [
+            0,
+            0,
+            0
+          ],
+          "components": {
+            "x": -0.59,
+            "y": -29.4,
+            "z": 1304.471,
+            "w": 78.512,
+            "p": 89.786,
+            "r": -11.595
+          }
+        },
+        {
+          "group": 2,
+          "uframe": 5,
+          "utool": 2,
+          "components": {
+            "j1": 0.0
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "json": [
+    "rigid",
+    [
+      "nested1",
+      "nested2"
+    ],
+    "better for data interchange"
+  ]
+}
