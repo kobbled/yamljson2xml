@@ -41,7 +41,12 @@ yamljson2xml file.yml file.xml
 use list tag type as attribute (see doc for dicttoxml)
 ```
 yamljson2xml file.yml file.xml -t
-``` 
+```
+
+convert yaml to json
+```
+yaml2json file.yml file.json
+```
 
 ## todo
 
