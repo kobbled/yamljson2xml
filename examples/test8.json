@@ -7,15 +7,16 @@
           "group": 1,
           "uframe": 5,
           "utool": 2,
-          "config": null,
-          "flip": false,
-          "up": true,
-          "top": true,
-          "turn_counts": [
-            0,
-            0,
-            0
-          ],
+          "config": {
+            "flip": false,
+            "up": true,
+            "top": true,
+            "turn_counts": [
+              0,
+              0,
+              0
+            ]
+          },
           "components": {
             "x": -0.59,
             "y": -29.4,
