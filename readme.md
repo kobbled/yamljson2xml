@@ -11,7 +11,7 @@ git clone https://github.com/kobbled/yamljson2xml
 install package
 ```
 cd yamljson2xml
-python setup.py install
+pip setup.py install
 ```
 add yamljson2xml/src to path (currently only for windows)
 ```
